@@ -1,5 +1,48 @@
+html{
+	font-family: cursive;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+
+.menu_item > h3{
+	border: 1px solid black;
+	padding: 2px 20px;
+	float: right;
+	margin: 0px;
+}
+
+#one{
+	background-color: purple;
+}
+
+#two{
+	background-color: orange;
+}
+
+#three{
+	background-color: lavender;
+}
+
+.menu_item{
+	border: 1px solid black;
+	margin: 15px;
+	background-color: grey;
+}
+
+.menu_item > p{
+	clear: right;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
 @media (min-width: 992px){
-	
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
